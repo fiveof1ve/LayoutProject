@@ -10,9 +10,6 @@
     text-decoration: none;
 }
 
-.main-page-body{
-
-}
 
 .main-page-header{
     display: flex;
@@ -31,10 +28,14 @@
 
 .title-main-page{
     font-size: 60px;
+    text-align: center;
 }
 
 .flex-container-main-page{
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 
 .main-page-button{
@@ -46,4 +47,14 @@
 }
 .cost{
     color:dodgerblue;
+}
+
+.main-page-image{
+    border: 1px solid black;
+    border-radius: 5%;
+}
+
+.flex-item{
+    padding: 30px 10px 30px 10px;
+
 }
